@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre Site de E-commerce de référence</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #988989;
+        }
+
+        header {
+            background-color: #cba80d;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .main-content {
+            padding: 20px;
+            text-align: center;
+            color: #4e82b5;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .scrolling-bar {
+            position: relative;
+            height: 40px;
+            background-color: #89e94d;
+            overflow: hidden;
+            line-height: 40px;
+        }
+
+        h2 {
+            white-space: nowrap;
+            overflow: hidden;
+            position: absolute;
+            animation: slide 25s linear infinite;
+            margin: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 40px;
+        }
+
+        @keyframes slide {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+
+        .product {
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .product img {
+            width: 180px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #cba80d;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        section.main-content p {
+            font-size: 20px;
+            color: #ffffff;
+            margin-top: 20px;
+        }
+        .product p {
+            text-align: left; /* Aligner le texte à gauche */
+            font-size: 16px;
+        }
+        header h1 {
+    font-size: 30px; /* Ajustez la taille en pixels selon vos préférences */
+    }
+
+    .product b {
+            
+            text-decoration: line-through;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Witshop</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Produits</a></li>
+                <li><a href="#">Panier</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <div class="scrolling-bar">
+            <h2>Bienvenue sur notre site de commerce en ligne de référence. Découvrez le meilleur de la mode chez Witshop !</h2>
+        </div>
+    </section>
+
+    <section class="main-content">
+        <div class="product">
+            <img src="https://maxsauveur.com/cdn/shop/products/chaussures-homme-mocassin-cuir-noir.jpg?v=1665397092" alt="prod1">
+            <p>Fashion Mocassin Pour Homme Formelles Simili Cuir Décontracté Chaussures Noir
+                Marque: Fashion | Produits similaires par Fashion
+                <strong>5000 FCFA - 5 880 FCFA
+                    <b>12 353 FCFA</b>
+                    60%</strong> </p>
+        </div>
+        <div class="product">
+            <img src="https://eu.jmweston.com/cdn/shop/products/11415181801TH_2000x2000_crop_center@2x.png?v=1631623394" alt="prod2">
+            <p>Fashion Mocassins Et Pantoufles En Cuir Décontracté Pour Hommes Noir
+                Marque: Fashion | Produits similaires par Fashion
+                <strong>8 000 FCFA
+                    <b>12 000 FCFA</b>
+                    33%</strong> </p>
+        </div>
+        <div class="product">
+            <img src="https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/66/80119/1.jpg?6427" alt="prod3">
+            <p>Primark Mocassins en cuir couleur noir pour femme
+                Marque: Primark | Produits similaires par Primark
+                <strong>12 000 FCFA - 25 000 FCFA</strong> </p> 
+        </div>
+
+        <div class="product">
+            <img src="https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/21/115911/1.jpg?2545" alt="prod4">
+            <p>Fashion Ensemble De Montre élégante Pour Femme
+                Marque: Fashion | Produits similaires par Fashion
+                <strong>4 795 FCFA
+                    <b>16 000 FCFA</b>
+                    70%</strong> </p>
+        </div>
+        <div class="product">
+            <img src="https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/80/582121/1.jpg?3675" alt="prod5">
+            <p>Fashion Montres De Sport électroniques Pour Hommes
+                Marque: Fashion | Produits similaires par Fashion
+                <strong>2 490 FCFA
+                    <b>4 890 FCFA</b>
+                    49%</strong> </p>
+        </div>
+        <div class="product">
+            <img src="https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/14/357001/1.jpg?3700" alt="prod6">
+            <p>Generic Chemises à Pois Pour Hommes
+                Marque: Generic | Produits similaires par Generic
+                <strong>6 300 FCFA
+                    <b>12 157 FCFA</b>
+                    48%</strong> </p>
+        </div>
+        <div class="product">
+            <img src="https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/732121/1.jpg?1116" alt="prod7">
+            <p>Mode Lot De 4 T-Shirt En Coton à Manches Courtes Pour Hommes
+                Marque: Mode | Produits similaires par Mode
+                <strong>9 500 FCFA
+                    <b>17 059 FCFA</b>
+                    44%</strong> </p>
+        </div>
+
+        <div class="product">
+            <img src="https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/14/90589/1.jpg?8625" alt="prod8">
+            <p>Fashion Polo Homme Manches Courtes - Rose
+                Marque: Fashion | Produits similaires par Fashion
+                <strong>4 750 FCFA
+                    <b>9 078 FCFA</b>
+                    48%</strong> </p>
+        </div>
+        <div class="product">
+            <img src="https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/82/459911/1.jpg?8621" alt="prod9">
+            <p>Fashion T-shirt à manches longues + pantalon pour hommes
+                Marque: Fashion | Produits similaires par Fashion
+                <strong>6 200 FCFA
+                    <b>11 725 FCFA - 28 000 FCFA</b>
+                    78%</strong> </p>
+        </div>
+        <div class="product">
+            <img src="https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/58/262121/1.jpg?0378" alt="prod10">
+            <p>Fashion Shorts Pantalon De Plage Pour Hommes
+                Marque: Fashion | Produits similaires par Fashion
+                <strong>2 000 FCFA
+                    <b>5 000 FCFA</b>
+                    60%</strong> </p>
+        </div>
+        <div class="product">
+            <img src="https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/15/603021/1.jpg?3843" alt="prod11">
+            <p>Generic Saree Indien Traditionnel Tissu Gerogette Imprimée, Top Qualité Non Cousu Pour Femme
+                Marque: Generic | Produits similaires par Generic
+                <strong>30 000 FCFA
+                    <b>35 000 FCFA</b>
+                    14%</strong> </p>
+        </div>
+        <div class="product">
+            <img src="https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/49/759911/1.jpg?2242" alt="prod12">
+            <p>Generic Tissu broder Otrice Classique Vert 5 Yards
+                Marque: Generic | Produits similaires par Generic
+                <strong>31 000 FCFA</strong></p>
+        </div>
+
+        <div class="product">
+            <img src="https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/60/514121/1.jpg?6394" alt="prod13">
+            <p>Generic SAI Sac à Dos De Grande Capacité Pour Ordinateur Portable, Sac De Rangement En Tissu Oxford
+                Marque: Generic | Produits similaires par Generic
+                <strong>9 390 FCFA
+                    <b>16 788 FCFA</b>
+                    44%</strong> </p>
+        </div>
+        <div class="product">
+            <img src="https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/34/61899/1.jpg?5214" alt="prod14">
+            <p>Abaya unie manche longue avec pantalon - Blanc wekh(dialabe)
+                Marque: Abaya | Produits similaires par Abaya
+                <strong>12 000 FCFA
+                    <b>26 000 FCFA</b>
+                    54%</strong> </p>
+        </div>
+        <div class="product">
+            <img src="https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/09/76299/1.jpg?1054" alt="prod15">
+            <p>Generic Tapis de Prière - en Velours - Multicolore
+                Marque: Generic | Produits similaires par Generic
+                <strong>6 999 FCFA
+                    <b>25 000 FCFA</b>
+                    72%</strong> </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Witshop. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
