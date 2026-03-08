@@ -54,4 +54,4 @@ Les principales fonctionnalités du système sont :
 
 L’image ci-dessous illustre l’interface de la page de vente.
 
-![La page de vente en ligne](images/page.png)
+![La page de vente en ligne](image/page.png)
